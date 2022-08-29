@@ -4,8 +4,7 @@
 NGINX assignment:
 1. docker run -it --rm -d -p 8080:80 --name web nginx
 2. visit http://localhost:8080/
-   ![alt text](https://github.com/Hemantkoli/Docker/blob/main/Default.png) 
-   <img src="https://github.com/Hemantkoli/Docker/blob/main/Default.png" width="128"/>
+   screenshot: https://github.com/Hemantkoli/Docker/blob/main/Default.png
 3. docker stop web
 4. cd ~/
 5. mkdir site-content
@@ -13,7 +12,7 @@ NGINX assignment:
 7. nano index.html & paste html code here
 8. docker run -it --rm -d -p 8080:80 --name web -v ~/site-content:/usr/share/nginx/html nginx
 9. visit http://localhost:8080/
-   ![alt text](https://github.com/Hemantkoli/Docker/blob/main/Modified.png)
+   screenshot: https://github.com/Hemantkoli/Docker/blob/main/Modified.png
 
 MYSQL assignment:
 1.  docker create -v /var/lib/mysql --name db-vol mysql
